@@ -1,0 +1,214 @@
+::selection {color: #C2C2C2; background: transparent;}
+::-moz-selection {color: #C2C2C2; background: transparent;}
+::-webkit-selection {color: #C2C2C2; background: transparent;}
+
+::-webkit-scrollbar {
+    width: 2px; height: 3px; background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color:#ffffff; border: 0px solid;
+}
+
+body {
+    margin:0px;
+    text-align:justify;
+    color:#ffffff;
+    background:#000000;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:11px;
+ cursor:url(https://i.postimg.cc/C1wtkYhP/kuwo.png), auto; 
+}
+    
+h1 {
+    color:#c4c4c4;
+    text-transform:uppercase;
+    letter-spacing:3px;
+    font-size:15px;
+    text-align:center;
+}
+    
+pre { 
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+}
+    
+blockquote {
+    border-left:1px solid #d7d7d7;
+    padding-left:7px;
+}
+    
+a {
+    color:#ecdccc;
+    text-decoration:none;
+    -webkit-transition: all 0.8s ease-out;
+    -moz-transition: all 0.8s ease-out;transition all 0.8s ease-out;
+}
+    
+a:hover {
+    color:#ffffff;
+    cursor: url(http://i.imgur.com/2qleX.jpg), auto; 
+    -webkit-transition: all 0.8s ease-out;
+    -moz-transition: all 0.8s ease-out;transition all 0.8s ease-out;
+}    
+
+#border {
+    
+    position:fixed;
+    height:200%;
+    margin-left:375px;
+    margin-top:-350px;
+    border-right:1.5px solid #b2b2b2;
+    
+}
+    
+#sidebar {
+    position:fixed;
+    width:220px;
+    left:180px;
+    bottom:150px;
+    padding:20px;
+    font-family:arial;
+    color:#ffffff;
+    background-color:#000000;
+}
+
+#sidebar img {
+    max-width:80px;
+    padding:4.5px;
+    margin-left:125px;
+    border-radius:100px;
+    -webkit-transition: opacity 0.8s linear;
+    opacity: .6; border:1px solid #3d3d3d;  
+}
+    
+#sidebar img:hover {
+    -webkit-transition: opacity 0.8s linear;
+    opacity: 1;  
+}  
+
+#title {
+    font-family: 'Cabin', sans-serif;
+    text-shadow:1.5px -1.5px 0px #838482;
+    text-align:right;
+    text-transform:uppercase;
+    display:block;
+    letter-spacing:2px;
+    color:#b2b2b2;
+    font-size:15px;
+    text-decoration:none;
+    padding-TOP:9px;
+}
+   
+#description {
+    display:block;
+    font-family: 'Source Sans Pro', sans-serif;
+    color:#5e5e5e;
+    font-size:10px;
+    padding-top:5px;line-height: 120%;
+    text-align:right;
+    width:160px;
+    margin-left:60px;
+}
+    
+#entries {
+    position:relative;
+    width:125%;
+    margin-top:-90px;
+} 
+
+#entries img {
+    -webkit-transition: opacity 0.8s linear;
+    opacity: 0.4;  
+}
+
+#entries img:hover {
+    -webkit-transition: opacity 0.8s linear;
+    opacity: .8;  
+}
+    
+#entries:hover .perma_hold {opacity:1;}
+.perma_hold {
+    font-family: 'Cabin', sans-serif;color:#b2b2b2;
+    width:50%;
+    top:100%;
+    margin-top:-15px;
+    position:absolute;
+    opacity:0;
+    z-index:9999;
+    background-color:transparent;
+    transition:0.6s ease;
+    -o-transition:0.6s ease;
+    -moz-transition:0.6s ease;
+    -webkit-transition:0.6s ease;
+}
+ 
+.perma {
+    font-family:helvetica;
+    top:100%;
+    position:relative;
+    font-size:8px;
+    letter-spacing:0.5px;
+    text-align:left;
+    text-transform:uppercase;
+    border-top:1px solid #3d3d3d;
+    padding:15px;
+}
+ 
+.info a{position:relative; margin-top:-10px;}
+.info { margin-top:-12px;font-size:8px;letter-spacing:0.5px; word-spacing:6px; text-align:right;}
+.tags a{margin:0px 3px;}
+.tags {
+    font-weight:normal;
+    margin-top:12px;
+    text-transform:none;
+    font-size:9px;
+    font-style:italic;
+}
+
+#posts {
+    margin-top:400px;
+    margin-left:560px;
+    width:400px;
+    
+    
+    
+}
+
+#quote {
+    font-style:italic;
+    font-size:17px;
+    text-align:justify;
+    padding:10px;
+    border-bottom:1px solid #d7d7d7;
+}
+
+#source {
+    padding:10px 10px 0px 10px;
+    text-align:right;
+}
+    
+.notes {
+    list-style-type:none;
+    text-align:left;
+    line-height:130%;
+    padding-top:25px;
+}
+    
+.notes img {
+    display:none;
+}
+    
+.notes a {
+    letter-spacing:1px;
+}
+
+ol.notes, .notes li{
+    margin:0px; 
+    padding:7px; 
+    border-bottom:1px solid #d7d7d7; 
+    
+}
